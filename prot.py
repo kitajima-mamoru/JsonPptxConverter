@@ -8,7 +8,6 @@ if __name__ == '__main__':
   source = "test.json"
 
   presen=MasterSlides(template,source)
-    #各ページを追加、保存していく
   for slide_number in range(1,slide_sum+1):
     presen.make_slide(slide_number)
   presen.save()
